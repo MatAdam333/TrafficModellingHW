@@ -1,0 +1,35 @@
+<routes>
+
+    <!-- North (heavy traffic) -->
+    <flow id="NS" from="N" to="SO"
+          begin="0" end="3600" vehsPerHour="700" />
+    <flow id="NW" from="N" to="WO"
+          begin="0" end="3600" vehsPerHour="200" />
+    <flow id="NE" from="N" to="EO"
+          begin="0" end="3600" vehsPerHour="30" />
+
+    <!-- South (light traffic) -->
+    <flow id="SN" from="S" to="NO"
+          begin="0" end="3600" vehsPerHour="700" />
+    <flow id="SE" from="S" to="EO"
+          begin="0" end="3600" vehsPerHour="200" />
+    <flow id="SW" from="S" to="WO"
+          begin="0" end="3600" vehsPerHour="30" />
+
+    <!-- East → West (medium traffic) -->
+    <flow id="EW" from="E" to="WO"
+          begin="0" end="3600" vehsPerHour="200" />
+    <flow id="EN" from="E" to="NO"
+          begin="0" end="3600" vehsPerHour="200" />
+    <flow id="ES" from="E" to="SO"
+          begin="0" end="3600" vehsPerHour="50" />
+
+    <!-- West → East (very light traffic) -->
+    <flow id="WE" from="W" to="EO"
+          begin="0" end="3600" vehsPerHour="200" />
+    <flow id="WS" from="W" to="SO"
+          begin="0" end="3600" vehsPerHour="200" />
+    <flow id="WN" from="W" to="NO"
+          begin="0" end="3600" vehsPerHour="30" />
+
+</routes>

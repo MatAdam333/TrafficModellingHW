@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- Induction Loops -->
+    <inductionLoop id="east_left" lane="E_2" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="east_middle" lane="E_1" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="east_right" lane="E_0" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="north_left" lane="N_2" pos="-5.00" period="300.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="north_middle" lane="N_1" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="north_right" lane="N_0" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="south_left" lane="S_2" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="south_middle" lane="S_1" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="south_right" lane="S_0" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="west_left" lane="W_2" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="west_middle" lane="W_1" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+    <inductionLoop id="west_right" lane="W_0" pos="-5.00" period="1.00" file="../outputs/induction_loops.xml"/>
+
+    <!-- Lane Area Detectors (single output file) -->
+    <!-- East lanes -->
+    <laneAreaDetector id="east_left_close" lane="E_2" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="east_left_far" lane="E_2" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="east_middle_close" lane="E_1" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="east_middle_far" lane="E_1" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="east_right_close" lane="E_0" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="east_right_far" lane="E_0" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+
+    <!-- North lanes -->
+    <laneAreaDetector id="north_left_close" lane="N_2" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="north_left_far" lane="N_2" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="north_middle_close" lane="N_1" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="north_middle_far" lane="N_1" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="north_right_close" lane="N_0" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="north_right_far" lane="N_0" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+
+    <!-- South lanes -->
+    <laneAreaDetector id="south_left_close" lane="S_2" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="south_left_far" lane="S_2" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="south_middle_close" lane="S_1" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="south_middle_far" lane="S_1" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="south_right_close" lane="S_0" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="south_right_far" lane="S_0" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+
+    <!-- West lanes -->
+    <laneAreaDetector id="west_left_close" lane="W_2" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="west_left_far" lane="W_2" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="west_middle_close" lane="W_1" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="west_middle_far" lane="W_1" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="west_right_close" lane="W_0" pos="-20.00" length="19.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+    <laneAreaDetector id="west_right_far" lane="W_0" pos="-80.00" length="60.00" period="0.50" file="../outputs/lane_areas.xml" friendlyPos="1"/>
+
+</additional>
