@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="../networks/threelane_cross_detectors.net.xml"/>
+        <route-files value="../routes/threelane_cross_random_p3.rou.xml"/> 
+        <additional-files value="../additionals/threelane_cross.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>
